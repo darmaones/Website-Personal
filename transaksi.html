@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indonesian Tourism</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Transaksi</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="kebudayaan.html">Kebudayaan</a></li>
+          <li><a href="tempatwisata.html">Tempat Wisata</a></li>
+          <li><a href="hotel.html">Hotel</a></li>
+          <li><a href="transaksi.html">Transaksi</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Lakukan Transaksi</h2>
+        <form id="transactionForm">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="transaction">Jenis Transaksi:</label>
+          <select id="transaction" name="transaction" required>
+            <option value="hotel">Booking Hotel</option>
+            <option value="tour">Pesan Paket Wisata</option>
+          </select>
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+    <footer class="transaksi">
+      <p>&copy; 2024 Dwiky Darmawan</p>
+    </footer>
+  </body>
+</html>
